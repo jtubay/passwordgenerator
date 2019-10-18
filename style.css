@@ -22,7 +22,7 @@ body {
 
 .jumbotron{
     margin-top: 5%;
-   
+    box-shadow: 0 0 10px #000000b3;
     
     
 }
