@@ -95,6 +95,7 @@ function generate() {
         }
     } else {
         alert("Please pick character types available to generate password!")
+    
     }
 
     // add password to textbox/display area
