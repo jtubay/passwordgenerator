@@ -112,3 +112,15 @@ document.getElementById('slider').oninput = function() {
         document.getElementById('length').innerHTML = "length = 8"
     }
 }
+
+//copy password to clipboard
+
+function copyToClipboard() {
+
+    document.getElementById('display').select();
+
+    document.execCommand('Copy');
+
+    alert('PW copied to clipboard')
+
+}
