@@ -27,13 +27,19 @@
               </div>
               <hr>
               <div class="row">
+                
+              </div>
+              <div class="row">
                   <div class="col-12" id="displayarea">
-                      <p>Your password here</p>
+                        <input type="range" min='0' name='slider' id="slider">
+                        <br>
+                      <input type="text" id="display">
+                      
                   </div>
               </div>
               <div class="row">
                   <div class="col-6">
-                    <button class="but">Generate Password</button>
+                    <button class="but" onclick="generate()">Generate Password</button>
                   </div>
                   <div class="col-6">
                       <button class="but2">Copy to Clipboard</button>
