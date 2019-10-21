@@ -1,7 +1,17 @@
-# passwordgenerator
+# Passwordgenerator Project
+<br>
+# Getting Started
+I began by creating the html skeleton and the adding a css style sheet to style the project. I also used Bootstrap to creat a grid that contains the main display of the project. For the javaScript, I create a main function that will run when the user click the "Generate Password Button." The fuction runs the alert questions and then an if statement that runs a for loop based on the users input. the results of the for loop are saved into an empty password variable. Using the dom, I created a function that saves the displayed password to the clipboard when the copy button is clicked. 
+<br>
+#Function :
+The application generates a random and secure password based on user input. 
 
+<br>
 
+#Links to the final product and the repository:
 
+https://jtubay.github.io/passwordgenerator/
+https://github.com/jtubay/passwordgenerator.git
 
 <br>
 Below are screenshots of the finished product:
